@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>Email All In One</title>
+</head>
+
+<body bgcolor="#222222" text="#FFFFFF">
+    <img src="https://wallpaperaccess.com/full/267573.jpg"
+        width="100%" height="100%" style="position: fixed; top: 0; left: 0; z-index: -1;"><br>
+    <header>
+        <h1 style="text-align: center;"><b><u>Please provide the required details</u></b></h1>
+    </header>
+    <main>
+        <br>
+        <hr>
+        <form action="/process" method="POST" target="_self">
+            <h2>
+                <br><br><br>
+                <div>
+                    <label for="myemail" style="color: orange;">My email:</label>
+                    <input id="myemail" type="email" name="email1">
+                </div>
+                <br>
+                <div>
+                    <label for="password" style="color: orange;">Password:</label>
+                    <input id="password" type="password" name="password">
+                </div>
+                <br>
+                <p>
+                    To generate password, click <a href="https://myaccount.google.com/apppasswords" target="_blank"> here</a>
+                </p>
+				
+                <div>
+                    <label for="recipientemail" style="color: blue;">Recipient email:</label>
+                    <input id="recipientemail" type="email" name="email2">
+                </div>
+                <br>
+                <div>
+                    <label for="emailsubject" style="color: blue;">Subject of Email:</label>
+                    <input id="emailsubject" type="text" name="subject">
+                </div>
+                <br>
+                <div>
+                    <label for="emailbody">Body of Email:</label>
+                    <input id="emailbody" type="text" name="body">
+                </div>
+                <br>
+                <div>
+                    <label for="emailcount" style="color: green;">Total count of Email</label>
+                    <input id="emailcount" type="number" name="count">
+                </div>
+                <br>
+                <div>
+                    <label for="delaysec" style="color: green;">Delay (Seconds)</label>
+                    <input id="delaysec" type="number" name="seconds">
+                </div>
+                <div><br><br><br>
+                    <input id="agree" type="radio" name="tc" value="agree">
+                    <label for="agree">I agree to all terms and conditions</label>
+                </div>
+            </h2>
+            <button type="submit" style="font-size: 20px;">Submit</button>
+        </form>
+    </main>
+    <footer><br><br><br>
+        <h3><u>Copyrights reserved under Section 13,14 and 51</u></h3>
+    </footer>
+	
+</body>
+
+</html>
